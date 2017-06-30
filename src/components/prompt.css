@@ -1,0 +1,8 @@
+.Prompt {
+  width: 100%;
+  height: 1.5em;
+
+  align-self: flex-end;
+
+  background-color: green;
+}

@@ -1,0 +1,13 @@
+.Terminal {
+  display: flex;
+
+  align-items: stretch;
+  align-content: stretch;
+  flex-direction: column;
+
+  height: 90vh;
+  width: 100vw;
+  padding-left: 0.6em;
+
+  background-color: black;
+}
