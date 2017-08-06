@@ -1,0 +1,19 @@
+.Home {
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: 5em;
+}
+
+.bio {
+  font-size: 4em;
+}
+
+.social img {
+  width: 5em;
+  height: 5em;
+}
