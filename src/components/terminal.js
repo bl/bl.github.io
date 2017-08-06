@@ -5,8 +5,8 @@ import Prompt from './prompt';
 import ViewPort from './viewport';
 
 class Terminal extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       history: 'This is a test'
     };
