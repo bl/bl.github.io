@@ -1,6 +1,13 @@
 {
   "home": {
     "title": "Bernard Laveaux",
-    "bio": "This is an example bio"
+    "bio": {
+      "title": "Bio",
+      "content": [
+        "I'm a computer science student from <href>Carleton University</href> with a passion for enhancing other developer's QoL, whether that be though plugins like StrictParams (WIP) or designing well written and easy to read code day to day.",
+
+        "I'm currently on my 3rd year school term looking for a 2017 winter and summer term internship. I've previously worked at %{wealthsimple}, %{shopify}, and %{ibm}"
+      ]
+    }
   }
 }
