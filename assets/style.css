@@ -73,9 +73,10 @@ p.lead { text-align: center; color: #727878; }
   height: 100%;
   margin-top: -15px;
   background-color: #F3EFDE;
+  -webkit-clip-path: circle(115px at center);
   clip-path: circle(115px at center);
 }
-.profile-image { width: 100%; clip-path: circle(100px at center); }
+.profile-image { width: 100%; -webkit-clip-path: circle(100px at center); }
 
 /* experiences section */
 .experiences .row { padding-bottom: 20px; }
