@@ -22,7 +22,7 @@ h2 { font-size: 54px; text-align: center; }
 p.lead { text-align: center; color: #727878; }
 
 /* override Bootstrap container */
-.container { padding: 60px 180px; max-width: 1280px; }
+.container { padding: 60px; max-width: 1280px; }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link { color: white; background-color: #22A39F; }
 
 /* navbar section */
@@ -68,6 +68,7 @@ p.lead { text-align: center; color: #727878; }
 /* profile section */
 .profile-background {
   min-width: 288px;
+  max-width: 280px;
   width: 100%;
   height: 100%;
   margin-top: -15px;
