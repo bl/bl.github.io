@@ -22,7 +22,14 @@ h2 { font-size: 54px; text-align: center; }
 p.lead { text-align: center; color: #727878; }
 
 /* override Bootstrap container */
-.container { padding: 60px; max-width: 1280px; }
+.container { padding-top: 60px; padding-bottom: 60px; max-width: 1280px; }
+@media (min-width: 650px) {
+  .container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link { color: white; background-color: #22A39F; }
 
 /* navbar section */
